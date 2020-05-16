@@ -1,5 +1,5 @@
 fn main() {
-    match blockfs::mount() {
+    match blockfs::create() {
         Ok(()) => {},
         Err(x) => {
             println!("{}", x);
